@@ -1,0 +1,13 @@
+.body {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+.containeroutils{
+    border: solid 2px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}

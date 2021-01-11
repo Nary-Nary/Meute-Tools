@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'El Messiri', sans-serif;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+
+.maincontainer{
+    position: absolute;
+    top: 10vh;
+    display: grid;
+    grid-template-rows: 25vh 25vh 25vh ;
+    grid-template-columns: 1fr, 1fr 1fr;
+    grid-gap: 5vh;
+    height: 85vh;
+    width: 100%;
+    
+}
+h1{
+    font-family: 'Rajdhani', sans-serif;
+    text-align: center;
+    text-shadow: 1px 1px white;
+}
+
+.containerA{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    z-index: 3;
+
+}
+
+.containerB{
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    z-index: 2;
+
+}
+
+.containerC{
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    z-index: 1;
+
+}
+
+
+.item1A{
+    height: 50%;
+    width: 20%;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #32373B;
+    color: #F4D6CC;
+    padding : 10px 25px 30px 25px;
+    text-align: justify;
+    transform: rotate(-20deg);
+    border-radius:5%;
+    z-index: 3;
+}
+
+.item1A:hover{
+    
+    height: 80%;
+    transition: 0.5s;
+    transform: translate(70px,60px) scale(1.5); 
+    
+    font-size: 10px;
+    background-color: #A7CAB1;
+    color: black;
+    border-radius: 20%;
+    
+
+}
+
+.item1B{
+    height: 100;
+    width: 25%;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #4F3130;
+    color: #F28123;
+    padding : 10px 25px 30px 25px;
+    text-align: justify;
+    
+    border-radius:5%;
+    z-index: 2;
+
+}
+
+.item1B:hover{
+    transform: translate(69px,35px) scale(1.5); 
+    height: 55%;
+    font-size: 10px;
+    transition: 0.5s;
+    
+    background-color: #38726C;
+    color: white;
+    border-radius: 20%;
+    
+
+
+}
+
+.item1C{
+    height: 100;
+    width: 25%;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #32373B;
+    color: #F4D6CC;
+    padding : 10px 25px 30px 25px;
+    text-align: justify;
+    transform: rotate(20deg);
+    border-radius:5%;
+    z-index: 1;
+
+}
+
+.item1C:hover{
+    transform: translate(69px,39px) scale(1.5); 
+    transition: 0.5s;
+    font-size: 10px;
+    background-color: #C83E4D;
+    color: #4A5859;
+    height: fit-content;
+
+
+}
+
+.item2A{
+    height: 100;
+    width: 25%;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #32373B;
+    color: #F4D6CC;
+    padding : 10px 25px 30px 25px;
+    text-align: justify;
+    transform: rotate(-20deg);
+    border-radius:5%;
+}
+
+.item2A:hover{
+    transform: translate(69px,55px) scale(1.5); 
+    transition: 0.5s;
+    font-size: 10px;
+    background-color: #C83E4D;
+    color: #4A5859;
+
+}
+
+.item2B{
+    height: 100;
+    width: 25%;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #32373B;
+    color: #F4D6CC;
+    padding : 10px 25px 30px 25px;
+    text-align: justify;
+    transform: rotate(20deg);
+    border-radius:5%;
+}
+
+.item2B:hover{
+    transform: translate(69px,55px) scale(1.5); 
+    transition: 0.5s;
+    font-size: 10px;
+    background-color: #C83E4D;
+    color: #4A5859;
+
+}
+
+
+
+.item3A{
+    height: 100;
+    width: 25%;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #32373B;
+    color: #F4D6CC;
+    padding : 10px 25px 30px 25px;
+    text-align: justify;
+    transform: rotate(20deg);
+    border-radius:5%;
+}
+
+.item3A:hover{
+    transform: translate(69px,55px) scale(1.5); 
+    transition: 0.5s;
+    font-size: 10px;
+    background-color: #C83E4D;
+    color: #4A5859;
+
+}
+
+.item3B{
+    height: 100;
+    width: 25%;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #32373B;
+    color: #F4D6CC;
+    padding : 10px 25px 30px 25px;
+    text-align: justify;
+    border-radius:5%;
+}
+
+.item3B:hover{
+    transform: translate(69px,55px) scale(1.5); 
+    transition: 0.5s;
+    font-size: 10px;
+    background-color: #C83E4D;
+    color: #4A5859;
+
+}
+
+.item3C{
+    height: 100;
+    width: 25%;
+    overflow: hidden;
+    font-size: 20px;
+    background-color: #32373B;
+    color: #F4D6CC;
+    padding : 10px 25px 30px 25px;
+    text-align: justify;
+    transform: rotate(-20deg);
+    border-radius:5%;
+}
+
+.item3C:hover{
+    transform: translate(69px,55px) scale(1.5); 
+    transition: 0.5s;
+    font-size: 10px;
+    background-color: #C83E4D;
+    color: #4A5859;
+
+}
+
